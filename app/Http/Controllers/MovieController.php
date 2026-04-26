@@ -75,7 +75,7 @@ class MovieController extends Controller
         $categories = Category::all();
         return view('form-edit', compact('movie', 'categories'));
     }
-
+// mibombo
     public function delete($id)
     {
         $this->movieService->deleteMovie($id);
