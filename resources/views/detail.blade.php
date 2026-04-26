@@ -11,6 +11,7 @@
       </div>
       <div class="col-md-9">
         <div class="card-body">
+          <!-- cihuy -->
           <h2 class="card-title">{{ $movie['judul'] }}</h2>
           <p class="card-text">{{ $movie['sinopsis'] }}</p>
           <p class="card-text">Kategori : {{ $movie->category->nama_kategori }}</p>
